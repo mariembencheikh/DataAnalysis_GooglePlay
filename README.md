@@ -1,6 +1,8 @@
 # The Android App Market on Google Play
 Load, clean, and visualize scraped Google Play Store data to gain insights into the Android app market.
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mariembencheikh/mini_projet_test/main?filepath=index.ipynb)
+<img src="img/google_play_store.png">
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mariembencheikh/DataAnalysis_GooglePlay.git/main?filepath=notebook.ipynb)
 #  :open_file_folder: Dataset
 |    |   Unnamed: 0 | App                                                | Category       |   Rating |   Reviews |   Size |   Installs | Type   |   Price | Content Rating   | Genres                    | Last Updated     | Current Ver        | Android Ver   |
 |---:|-------------:|:---------------------------------------------------|:---------------|---------:|----------:|-------:|-----------:|:-------|--------:|:-----------------|:--------------------------|:-----------------|:-------------------|:--------------|
@@ -9,7 +11,6 @@ Load, clean, and visualize scraped Google Play Store data to gain insights into 
 |  2 |            2 | U Launcher Lite – FREE Live Cool Themes, Hide Apps | ART_AND_DESIGN |      4.7 |     87510 |    8.7 |      5e+06 | Free   |       0 | Everyone         | Art & Design              | August 1, 2018   | 1.2.4              | 4.0.3 and up  |
 |  3 |            3 | Sketch - Draw & Paint                              | ART_AND_DESIGN |      4.5 |    215644 |   25   |      5e+07 | Free   |       0 | Teen             | Art & Design              | June 8, 2018     | Varies with device | 4.2 and up    |
 |  4 |            4 | Pixel Draw - Number Art Coloring Book              | ART_AND_DESIGN |      4.3 |       967 |    2.8 | 100000     | Free   |       0 | Everyone         | Art & Design;Creativity   | June 20, 2018    | 1.1                | 4.4 and up    |
-<img src="img/google_play_store.png">
 
 
 * [![Next][Next.js]][Next-url]
