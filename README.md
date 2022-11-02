@@ -2,7 +2,7 @@
 Load, clean, and visualize scraped Google Play Store data to gain insights into the Android app market.
 <img src="img/google_play_store.png">
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mariembencheikh/DataAnalysis_GooglePlay.git/main?filepath=notebook.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mariembencheikh/DataAnalysis_GooglePlay/main?filepath=notebook.ipynb)
 #  :open_file_folder: Dataset
 |    |   Unnamed: 0 | App                                                | Category       |   Rating |   Reviews |   Size |   Installs | Type   |   Price | Content Rating   | Genres                    | Last Updated     | Current Ver        | Android Ver   |
 |---:|-------------:|:---------------------------------------------------|:---------------|---------:|----------:|-------:|-----------:|:-------|--------:|:-----------------|:--------------------------|:-----------------|:-------------------|:--------------|
