@@ -1,5 +1,7 @@
 # The Android App Market on Google Play
+
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mariembencheikh/DataAnalysis_GooglePlay/main?filepath=notebook.ipynb)
+
 Load, clean, and visualize scraped Google Play Store data to gain insights into the Android app market.
 <img src="img/google_play_store.png">
 * The data for this project was scraped from the Google Play website. While there are many popular datasets for Apple App Store. The data files are:
