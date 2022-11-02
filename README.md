@@ -11,7 +11,7 @@ Load, clean, and visualize scraped Google Play Store data to gain insights into 
     * user_reviews.csv: contains 100 reviews for each app, most helpful first. 
 #  :open_file_folder: Dataset
   
-#  ::page_facing_up:: apps.csv
+#  :page_facing_up:: apps.csv
 |    |   Unnamed: 0 | App                                                | Category       |   Rating |   Reviews |   Size |   Installs | Type   |   Price | Content Rating   | Genres                    | Last Updated     | Current Ver        | Android Ver   |
 |---:|-------------:|:---------------------------------------------------|:---------------|---------:|----------:|-------:|-----------:|:-------|--------:|:-----------------|:--------------------------|:-----------------|:-------------------|:--------------|
 |  0 |            0 | Photo Editor & Candy Camera & Grid & ScrapBook     | ART_AND_DESIGN |      4.1 |       159 |   19   |  10000     | Free   |       0 | Everyone         | Art & Design              | January 7, 2018  | 1.0.0              | 4.0.3 and up  |
@@ -21,7 +21,7 @@ Load, clean, and visualize scraped Google Play Store data to gain insights into 
 |  4 |            4 | Pixel Draw - Number Art Coloring Book              | ART_AND_DESIGN |      4.3 |       967 |    2.8 | 100000     | Free   |       0 | Everyone         | Art & Design;Creativity   | June 20, 2018    | 1.1                | 4.4 and up    |
 
 
-#  ::page_facing_up:: apps.csv
+#  :page_facing_up:: user_reviews.csv
 |    | App                   | Review                                                                                                                     | Sentiment   |   Sentiment_Polarity |   Sentiment_Subjectivity |
 |---:|:----------------------|:---------------------------------------------------------------------------------------------------------------------------|:------------|---------------------:|-------------------------:|
 |  0 | 10 Best Foods for You | I like eat delicious food. That's I'm cooking food myself, case "10 Best Foods" helps lot, also "Best Before (Shelf Life)" | Positive    |                 1    |                 0.533333 |
@@ -37,18 +37,18 @@ Load, clean, and visualize scraped Google Play Store data to gain insights into 
 * Dealing with missing numerical values.
 * Exploring app categories: create data for a bar chart that shows the distribution of apps across different categories.
 
-  <img src="img/appsVScateg.png">
+  <img src="img/appsVScateg.PNG">
 
 * Distribution of app ratings: create a plot annotation for average app rating.
 
-  <img src="img/avg.png">
+  <img src="img/avg.PNG">
 
 * Examine the relationship between size, price, and rating of apps using jointplot().
 * Use a strip plot to visualize the distribution of paid apps across different categories.
 * Filter out "junk" apps.
 * Popularity of paid apps vs free apps: prep the data for a box plot that compares the number of installs of paid apps vs. number of installs of free apps: this figure shows that the number of downloads of free applications is higher than paid applications
   
- <img src="img/freeVSpaid.png">
+ <img src="img/freeVSpaid.PNG">
 
 * Sentiment analysis of user reviews: load the user review data and plot it to visualize sentiment of paid vs. free apps.
 
